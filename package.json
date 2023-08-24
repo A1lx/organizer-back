@@ -1,0 +1,18 @@
+{
+  "name": "organizer-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js localhost 7070"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "nodemon": "^3.0.1",
+    "ws": "^8.13.0"
+  }
+}
